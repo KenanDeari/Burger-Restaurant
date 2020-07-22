@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/KenanDeari/Burger-Restaurant/issues"
   },
-  "homepage": "https://github.com/KenanDeari/Burger-Restaurant#readme"
+  "homepage": "https://github.com/KenanDeari/Burger-Restaurant#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.3.3"
+  }
 }
