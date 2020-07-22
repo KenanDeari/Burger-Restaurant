@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Eat Da Burger!</title>
+  {{!-- linked bootstrap, images & CSS --}}
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+</head>
+
+<body>
+  {{!-- nav-bar html --}}
+  <nav class="navbar navbar-light bg-dark justify-content-between mb-5">
+    <a class="navbar-brand">
+      <h1 class="headerOne">Eat da Burger<h1>
+    </a>
+  </nav>
+  {{!-- html for custom Burger --}}
+  <div class="container">
+    <!-- Burger body rom index.handlebars -->
+    {{{body}}}
+    <div class="row">
+      <div class="col-md-2"></div>
+      <div class="col-md-8">
+        <div class="card my-4">
+          <h5 class="card-header text-center">Request a personal burger here!</h5>
+          <div class="card-body">
+            <div class="form-group">
+              <label for="new_burger"></label>
+              <textarea class="form-control" rows="4" id="new_burger" name="burger_name"></textarea>
+              <button id="submit-button" type="submit" class="btn btn-danger mx-auto mt-4"><i
+                  class="fas fa-utensils"></i> Place My Order!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3"></div>
+    </div>
+  </div>
+  {{!-- scripts linked --}}
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="/assets/front.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

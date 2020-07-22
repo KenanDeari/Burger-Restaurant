@@ -1,0 +1,51 @@
+
+.jumbotron {
+	background-color: wheat;
+}
+/* body css */
+body {
+	background-repeat: no-repeat;
+   background-size: cover; 
+   background-image: url("../images/background.jpg");	
+   background-attachment: fixed;
+   background-position: center;
+   color: rgb(237, 179, 71);
+   box-shadow: tomato;
+}
+/* nav css */
+.navbar-default {
+    background-color: wheat;
+	border-color: wheat;
+}
+.navbar-brand {
+    color: rgb(237, 179, 71);
+
+}
+.form-control {
+    margin: 10px;
+}
+/* button css */
+.btn-info {
+    color: black;
+    border-radius: 50px;
+}
+.btn-warning {
+    margin: 15px;
+    position: sticky;
+    padding: 5px;
+    border-radius: 50px;
+}
+#submit-button {
+    display: block;
+	border-radius: 50px;
+	width: 250px;
+}
+/* header css */
+#h1 {
+    background-color: wheat;
+    margin: auto;
+    float: right;
+}
+
+
+
